@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*~
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Built app (recreated by ./build-app.sh)
+*.app/
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-*
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.p12
+*.key
+
+# Test / coverage
+*.xcresult
+coverage/
+*.profraw
+*.profdata
+
+# Archives & installers
+dist/
+*.dmg
+*.pkg
+*.zip
+!AppIcon.iconset/**
